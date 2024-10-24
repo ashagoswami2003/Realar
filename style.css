@@ -1,0 +1,588 @@
+.br {
+    border: 2px solid red;
+}
+
+.bb {
+    border: 2px solid blue;
+}
+
+.bm {
+    border: 2px solid magenta;
+}
+
+.bg {
+    border: 2px solid gold;
+}
+
+.bk {
+    border: 2px solid black;
+}
+.h-80px {
+    height: 80px;
+}
+.h-900px {
+    height: 900px;
+}
+
+.h-500px {
+    height: 500px;
+}
+
+.h-400px {
+    height: 400px;
+}
+
+.h-250px {
+    height: 250px;
+}
+
+.h-600px {
+    height: 600px;
+}
+
+.h-700px {
+    height: 700px;
+}
+
+.h-70px {
+    height: 70px;
+
+}
+
+.h-150px {
+    height: 150px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.h-350px {
+    height: 350px;
+}
+
+.h-300px {
+    height: 300px;
+}
+
+.h-450px {
+    height: 450px;
+}
+.h-50px {
+    height: 50px;
+}
+
+.bt {
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #eed26e;
+    border: none;
+    border-radius: 10px;
+    transition: .3s all linear;
+}
+
+.bt:hover {
+    border-radius: 25px;
+    transition: .3s all linear;
+}
+
+.bg-sec {
+    background-image: url(slider\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+}
+
+.bg-sec span {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.bg-sec2 {
+    background-image: url(slider\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.bg-sec2 span {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.bg-sec3 {
+    background-image: url(first-img\ -1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.bg-sec3 span {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.first-left-sec h1 {
+    width: 100%;
+}
+
+.soical-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 130px;
+    gap: 60px;
+}
+
+.soical-div h5 {
+    color: #eed26e;
+}
+
+.soical-div h6 {
+    color: white;
+    rotate: -90deg;
+}
+
+.first-right-sec i {
+    background-color: rgba(255, 255, 255, 0.295);
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-div h5 {
+    rotate: 630deg;
+
+}
+
+.scroll-div i {
+    rotate: 630deg;
+
+}
+
+.second-card h1:nth-child(1):before {
+    content: counter(count);
+    font-size: 45px;
+    counter-reset: count 850;
+    animation: counter 1s;
+}
+
+.second-card2 h1:before {
+    content: counter(count);
+    font-size: 45px;
+    counter-reset: count 950;
+    animation: counter2 1s;
+}
+
+.second-card3 h1:before {
+    content: counter(count);
+    font-size: 45px;
+    counter-reset: count 18;
+    animation: counter3 1s;
+}
+
+.second-card4 h1:before {
+    content: counter(count);
+    font-size: 45px;
+    counter-reset: count 2;
+    animation: counter4 1s;
+}
+.fourth-card:hover i {
+    transform: rotateY(180deg);
+    transition: .5s ease;
+
+}
+.fourth-card i {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.537);
+    padding: 12px 15px;
+    border-radius: 10px;
+}
+
+
+.third-data-con {
+    gap: 100px;
+}
+
+.fourth-card h2 {
+    transition: .3s all linear !important;
+}
+
+.fourth-card h2:hover {
+    color: #eed26e !important;
+    transition: .3s all linear !important;
+}
+
+.fourth-main-sec {
+    background-image: url(fifth-3\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.fifth-left h4 {
+    border: 1px solid rgba(255, 255, 255, 0.365);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifth-card1 h4 {
+    border: 1px solid rgba(255, 255, 255, 0.365);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-review h6 {
+    border: 1px solid rgba(255, 255, 255, 0.365);
+    width: 25%;
+    padding: 12px 12px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;align-items: center;justify-content: center;gap: 5px;
+}
+.bt2 {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1d2c37;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    transition: .3s all linear;
+}
+.bt2 {
+    transition: .3s all linear;
+}
+.bt2:hover {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    transition: .3s all linear;
+}
+
+.img-sec {
+    
+    border-radius: 25px;
+    overflow: hidden;
+}
+.img-sec img {
+    transition: .3s all linear;
+
+}
+.sixth-card-con:hover .img-sec img {
+    scale: 1.1;
+    overflow: hidden;
+    transition: .3s all linear;
+}
+.number-div h2 {
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.sixth-card {
+    background-image: url(car\ park\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all .5s ease;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+.sixth-card:nth-child(2) {
+    background-image: url(gym\ boy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all .5s ease;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.sixth-card:nth-child(3) {
+    background-image: url(rooftop\ garden.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all .5s ease;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.sixth-card:nth-child(4) {
+    background-image: url(play\ ground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all .5s ease;
+    border-radius: 25px;
+    overflow: hidden;
+    
+
+}
+.sixth-card:nth-child(5) {
+    background-image: url(pool\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all .5s ease;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.sixth-card:nth-child(6) {
+    background-image: url(pet\ frdly\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all .5s ease;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.sixth-card:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    transition: all .5s ease;
+    background-color: #1d2c37;
+
+
+}
+
+.sixth-card:hover:before {
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 0);
+
+    
+}
+
+.sixth-card:hover .icon-img {
+    transform: rotateY(180deg);
+    transition: .5s ease;
+}
+
+.sixth-card .icon-img {
+    z-index: 1111111111;
+    transition: .5s ease;
+}
+.sixth-card h5  {
+    z-index: 1111111111;
+}
+.sixth-card span  {
+    z-index: 1111111111;
+}
+
+.seventh-main-sec {
+    background: rgb(29,44,55);
+background: linear-gradient(0deg, rgba(29,44,55,1) 63%, rgba(193,204,209,1) 63%);
+}
+.seventh-left-sec {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.seventh-right-sec {
+    background-image: url(fourth-card-con\ img2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    
+}
+.seventh-right-sec i {
+    background-color: rgba(255, 255, 255, 0.292);
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seventh-left-sec button {
+    background-color: black;
+    color: white;
+    padding: 17px 24px;
+}
+.eight-card:nth-child(1) {
+    background-image: url(images\ \(8\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.eight-card:nth-child(2) {
+    background-image: url(team_1_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.eight-card:nth-child(3) {
+    background-image: url(team_1_3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.eight-right-card i {
+    width: 45px;
+    height: 45px;
+    display: flex;align-items: center;justify-content: center;
+    border-radius: 25px;
+    background-color: #eed26eab;
+    color: #1d2c37;
+}
+.eight-data-con {
+    transition: .3s ease-in-out;
+}
+.eight-data-con:hover {
+    height: 390px !important;
+    
+    transition: .3s ease-in-out;
+}
+.second-icon-con {
+    transition: .3s all ease-in-out;
+}
+.second-icon-con i:hover {
+    background-color: white;
+    color: #1d2c37 !important;
+}
+.eight-data-con:hover .second-icon-con{
+    display: flex !important;
+    transition: .3s all ease-in-out;
+    
+}
+
+
+
+.sec-button-con button:nth-child(2) {
+    border: 2px solid white;
+    background-color: #1d2c37;
+    color: white;
+}
+.tenth-right-con {
+    position: relative;
+}
+.second-img-div {
+    position: absolute;
+    right: 0;
+    top: 270px;
+}
+.eleventh-main-sec {
+    background-image: url(luxury\ home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.eleventh-left-con {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.admin-right-sec button {
+    background-color: #1d2c37;
+    color: white;
+    border: 2px solid white;
+}
+.admin-right-sec button:hover {
+    background-color: white;
+    color: #1d2c37;
+}
+.icon-2nd-card i {
+    border: 2px solid #1d2c375c !important;
+    color: #1d2c37ce !important;
+}
+.left-2-20 span i {
+    border: 2px solid #1d2c375c !important;
+    color: #1d2c37ce !important;
+}
+.right-1-20 ul li {
+    list-style: none;
+    display: flex;align-items: center;justify-content: center;gap: 10px;
+
+}
+.right-1-20 ul li a {
+    text-decoration: none;
+    color: #1d2c37;
+}
+.new-seltter {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow: hidden;
+}
+.new-right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: end !important;
+    gap: 20px;
+}
+.new-right input {
+    border: 2px solid #1d2c37 !important;
+}
+.new-right input::placeholder {
+    color: #1d2c37 !important; 
+
+}

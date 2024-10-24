@@ -1,0 +1,318 @@
+@media only screen and ( max-width:600px) {
+    .main-logo-con {
+        margin: 0 !important;
+        height: auto !important;
+    }
+    
+    .first-left-sec h1 {
+        text-align: center !important;
+        font-size: 37px !important;
+        width: 100% !important;
+    }
+    .first-left-sec p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .first-left-sec button {
+       margin-left: 100px;
+    }
+    .first-right-sec {
+        width: 100%;
+    }
+
+
+    .second-card {
+        width: 90% !important;
+    }
+
+    .sec-left-con  {
+        padding-left: 0 !important;
+    }
+    .third-data-sec {
+        gap: 0 !important;
+        gap: 30px !important;
+    }
+    .third-data-sec h1 {
+        width: 100% !important;
+        font-size: 22px;
+    }
+    .third-data-con {
+        gap: 0 !important;
+        gap: 50px !important;
+    }
+    .fourth-card p {
+        width: 80% !important;
+    }
+    .fourth-left-sec h1 {
+        font-size: 40px !important;
+    }
+    .review-data-con {
+        gap: 120px !important;
+    }
+    .right-review h6 {
+        width: 80px !important;
+    }
+    .fifth-card {
+        border: none !important;
+    }
+    .cards {
+        border: none !important;
+    }
+    .number-div {
+        height: auto;
+        width: auto;
+    }
+    .sixth-card-con {
+        border: none !important;
+    }
+    .sixth-card {
+        width: 70% !important;
+    }
+    .sixth-main-sec p {
+        font-size: 17px !important;
+    }
+
+    .seventh-main-sec {
+        background: rgb(29,44,55);
+    background: linear-gradient(0deg, rgba(29,44,55,1) 50%, rgba(193,204,209,1) 50%);
+    }
+    .seventh-left-sec {
+        border-radius: 0;
+        padding-left: 20px;
+        border-bottom-left-radius: 25px !important;
+        border-bottom-right-radius: 25px !important;
+    }
+    .seventh-right-sec {
+        border-radius: 0;
+        
+    }
+    .seventh-right-sec {
+        height: 400px !important;
+        width: 95% !important;
+        border-radius: 25px ;
+        
+    }
+    
+    .seventh-left-sec h1 {
+        font-size: 30px !important;
+        width: 90% !important;
+    }
+    .seventh-left-sec p {
+        font-size: 15px !important;
+        width: 90% !important;
+    }
+    .signature-div {
+        width: 90% !important;
+    }
+    .name-div {
+        width: 80%;
+    }
+    .eight-card {
+        width: 90% !important;
+    }
+    .nineth-left-sec img {
+        width: 100% !important;
+    }
+    .nineth-right-sec span {
+        font-size: 45px !important;
+        letter-spacing: 0 !important;
+    }
+    .nineth-right-sec h1 {
+        margin-top: 0 !important;
+        margin-top: -33px !important;
+        font-size: 30px !important;
+    }
+    .tenth-left-con span {
+        font-size: 40px !important;
+    }
+    .tenth-left-con h1 {
+        margin-top: 0 !important;
+        margin-top: -25px !important;
+    }
+    .tenth-left-con p {
+        font-size: 17px !important;
+        width: 95% !important;
+    }
+    .signature-div {
+        width: 100% !important;
+    }
+    .signature-div img {
+        height: 100px !important;
+    }
+    .first-img-div {
+        width: 80% !important;
+        height: 400px !important;
+    }
+    .second-img-div {
+        width: 70% !important;
+        right: 0 !important;
+    }
+    .ceo-img img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .eleventh-left-con {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .eleventh-left-con span {
+        font-size: 40px !important;
+    }
+    .eleventh-left-con h1 {
+        margin-top: 0 !important;
+        font-size: 30px !important;
+        margin-top: -40px !important;
+    }
+    .eleventh-left-con p {
+        font-size: 17px !important;
+    }
+    
+    .twelveth-left-sec span {
+        font-size: 50px !important;   
+    }
+    .twelveth-left-sec h1 {
+        margin-top: 0 !important;
+        margin-top: -35px !important;
+    } 
+    .nineth-card1 img {
+       width: 100% !important;
+    }
+    .admin-left-sec {
+        width: 50% !important;
+    }
+    .admin-sec {
+        width: 100% !important;
+    }
+    .add-text {
+        width: 80% !important;
+    }
+    .phone-sec-two {
+        width: 50px !important;
+    }
+    .new-seltter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        width: 100% !important;
+    }
+    .new-left h1 {
+        font-size: 25px !important;
+    }
+    .new-right {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: start !important;
+        justify-content: start !important;
+    }
+    .eight-data-con {
+        width: 90% !important;
+    }
+    .eight-div-card {
+        width: 100% !important;
+    }
+    .eight-left-card {
+        width: 70% !important;
+    }
+    .eight-right-card {
+        width: 30% !important;
+    }
+}
+
+
+@media only screen and ( max-width:431px) {
+    .first-left-sec h1 {
+        text-align: center !important;
+        font-size: 35px !important;
+        width: 100% !important;
+    }
+
+    .third-data-sec {
+        padding-top: 30px;
+    }
+
+    .third-data-con {
+        gap: 0 !important;
+        gap: 20px !important;
+    }
+
+    .fourth-main-sec {
+        height: 80vh !important;
+    }
+    .fourth-left-sec h1 {
+        font-size: 35px !important;
+    }
+    .signature-div {
+        width: 100% !important;
+    }
+    .signature-div img {
+        height: 50px !important;
+    }
+    .ceo-name {
+        width: 100% !important;
+    }
+    .ceo-img img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .sec-left-con span {
+        font-size: 45px !important;
+    }
+    .sec-left-con h1 {
+        margin-top: 0 !important;
+        margin-top: -30px !important;
+    }
+    .fourth-left-sec span {
+        font-size: 45px !important;
+    }
+    .fourth-left-sec h1 {
+        margin-top: 0 !important;
+        margin-top: -45px !important;
+    }
+    .fifth-left-sec span {
+        font-size: 40px !important;
+    }
+    .fifth-left-sec h1 {
+        margin-top: 0 !important;
+        margin-top: -25px !important;
+    }
+    .sixth-main-sec span {
+        font-size: 60px !important;
+        
+    }
+    .sixth-main-sec h1 {
+        margin-top: 0 !important;
+        margin-top: -40px !important;
+    }
+    
+    .eight-card {
+        width: 100% !important;
+    }
+    .tenth-right-con  {
+        height: 50vh !important;
+    }
+    .first-img-div {
+        width: 80% !important;
+        height: 350px !important;
+    }
+    .second-img-div {
+        width: 70% !important;
+        right: 0 !important;
+        top: 150px !important;
+    }
+    .tenth-card {
+        height: 300px !important;
+    }
+    .eleventh-left-con p {
+        font-size: 17px !important;
+        text-align: center;
+    }
+    .admin-left-sec {
+        width: 55% !important;
+    }
+    .admin-sec {
+        width: 100% !important;
+    }
+}
